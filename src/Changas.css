@@ -1,0 +1,30 @@
+.changas__container{
+    overflow-y: scroll;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    max-height: 65vh;
+    width: 100%;
+	overflow-x: hidden;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+.changas__container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.changas__container::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.changas__container::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}

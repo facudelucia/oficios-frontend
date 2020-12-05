@@ -1,0 +1,52 @@
+.formEditChanga{
+    display: flex;
+    flex-direction: column;
+}
+.formEditChanga__boxSection{
+    display: flex;
+    flex-direction: column;
+}
+.formEditChanga__box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.formEditChanga__input{
+    width: 100%;
+}
+.formEditChanga__submit{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 8px;
+    margin-top: 12px;
+    background: seagreen;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.formEditChanga__boxDelete{
+    padding: 8px;
+    background:red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.formEditChanga__new{
+    padding: 8px;
+    margin-top: 12px;
+    background: steelblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.formEditChanga__form{
+    margin-top: 12px;
+}
+.formEditChanga__form-control{
+    margin-top: 12px;
+}

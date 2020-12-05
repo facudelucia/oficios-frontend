@@ -1,0 +1,15 @@
+.Cards__slider{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-arrow{
+    background: #00adb5;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+}
+.slick-arrow:hover,
+.slick-arrow:focus{
+    background-color: #00adb5 !important;
+}

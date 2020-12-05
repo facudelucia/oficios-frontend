@@ -1,0 +1,30 @@
+.changaBox{
+    margin: 10px;
+    background: white;
+    padding: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: -7px 7px 24px -2px rgba(0,0,0,0.5);
+}
+.changaBox__title{
+    padding: 3px;
+}
+.changaBox p{
+    padding: 3px;
+    font-size: 18px;
+}
+.changaBox__zone{
+    color: gray;
+}
+.changaBox__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.changaBox__phone{
+    background: #00bb2d;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+}

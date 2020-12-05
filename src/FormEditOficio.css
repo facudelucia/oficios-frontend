@@ -1,0 +1,111 @@
+.formEditOficio{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 30px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    border-radius: 6px;
+    box-shadow: -7px 7px 24px -2px rgba(0,0,0,0.5);
+}
+
+.formEditOficio__img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.formEditOficio__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.formEditOficio__logout{
+    background: steelblue;
+    padding:12px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.formEditOficio__deleteAccount{
+    background: red;
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 7%;
+}
+.formEditOficio__form-img{
+    display: flex;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.formEditOficio__changeImg{
+    align-self: center;
+    background:#00adb5;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.formEditOficio__form-control{
+    margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.formEditOficio__form-control label{
+    display: inline-block;
+	margin-bottom: 5px;
+}
+.formEditOficio__input{
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+    
+}
+.formEditOficio__textarea{
+    resize: none;
+	outline: 0;
+	width: 100%;
+}
+.formEditOficio__submit{
+    background-color:#222831;
+	border: 2px solid#222831;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+.formEditOficio__submit:hover{
+    background-color:#00adb5;
+}
+
+@media (max-width:576px){
+    .formEditOficio{
+        width: 80%;
+    }
+    .formEditOficio__deleteAccount{
+        width: 40%;
+    }
+    .formEditOficio__logout{
+        padding:0px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,17 @@
+
+.oficiouser__return{
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+.oficiouser__return:hover{
+    background-color: tomato;
+}
+.oficiouser__back{
+    height: 70vh;
+}

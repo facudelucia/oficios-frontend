@@ -1,0 +1,70 @@
+.login{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 40px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border-radius: 6px;
+    box-shadow: -7px 7px 24px -2px rgba(0,0,0,0.5);
+}
+.login__back{
+    height: 80vh;
+}
+.login__inputSection{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    position: relative;
+}
+
+.login__input{
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.login__inputSection.error{
+    border-color: #e74c3c;
+}
+.login__icon{
+    position: relative;
+    padding-right: 10px;
+    border-right: 1px solid black; 
+}
+.login__button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #00adb5;
+    cursor: pointer;
+}
+.secondary{
+    background-color:#222831;
+}
+.login__inputSection.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+.login__inputSection.error .login__icon {
+    color: #e74c3c;
+    border-right: 1px solid #e74c3c; 
+}
+.login small {
+    color: #e74c3c;
+    margin-left: 5%;
+}
+@media (max-width:576px){
+    .login{
+        width: 80%;
+    }
+}
